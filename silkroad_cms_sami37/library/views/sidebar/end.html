@@ -1,0 +1,40 @@
+	<?php
+	
+global $config
+?>
+	<div class="widget categories">
+        <div class="title" style="font-size:15px;">Social Media</div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="blog_archieve">
+        			<div class="fb-like-box" style="padding-left:2px;"
+        			data-href="<?=$config->FaceBook?>"
+        			data-width="260" data-show-faces="true"
+        			data-colorscheme="dark"
+        			data-stream="false"
+        			data-header="false">
+        			</div>
+                </ul>
+            </div>
+        </div>                     
+    </div> <!--End Facebook page-->
+</div> <!--/.tags-->
+
+<!--facebook script-->
+<script>(function(d, s, id)
+{
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en-US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}
+(document, 'script', 'facebook-jssdk'));
+</script>
+<!--End facebook script-->
+
+		
+				
+    			</div>  
+            </div><!--/.row-->
+</section><!--/#blog-->

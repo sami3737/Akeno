@@ -1,0 +1,58 @@
+<?php
+//print_r(sideBar::getLastUnique());
+$object = sideBar::getLastUnique();
+?>
+
+
+<!--Unique History-->
+<div class="widget categories">
+	<div class="title" style="font-size:15px;">Unique History</div>
+	<div class="divider"></div>
+	<div class="row">
+		<div class="col-sm-12">
+			<ul class="blog_archieve">
+				<div class="clearfix margin-bottom-15"></div>
+				<i class="fa fa-tasks"></i>
+				<strong>General <i data-toggle="collapse" data-target="#uniques" class="fa fa-plus" style="cursor:pointer;color:#103784;"></i></strong>
+				<div id="uniques" class="collapse">
+					<ul class="list-unstyled">
+					
+					<?php if (count($object) > 0) { foreach ($object as $result) { ?>
+						<li>
+						
+							<strong>
+								<a class="text-red" href="/ranking/player/<?php $result['CharID']?>">
+									<?php $result['Charname']?>
+								</a>
+							</strong>
+							has killed <strong><?php $result['UniqueName']?></strong> <?php $result['Time']?>
+						</li>
+					<?php } } ?>
+					</ul>
+				</div>
+			</ul>
+		</div>
+	</div>                     
+</div> <!--End Unique History-->
+	<!--Job-->
+	<div class="widget categories">
+        <div class="title" style="font-size:15px;">JOB RANK</div>
+		<div class="divider"></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="blog_archieve">
+				<div class="clearfix margin-bottom-15"></div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-trader" style="width:<?php sideBar::getTraderPercentage();?>%;"> Traders </div>
+						<div class="progress-bar progress-bar-hunter" style="width:<?php sideBar::getHunterPercentage();?>%;"> Hunters </div>
+						<div class="progress-bar progress-bar-thief"  style="width:<?php sideBar::getThiefPercentage();?>%;"> Thieves </div>
+					</div>
+					<ul class="joblegend list-unstyled">
+						<li><span class="trader"></span> <?php sideBar::getTraderPercentage();?>% Traders&nbsp;<img src="images/job/trader-icon.png"/></li>
+						<li><span class="hunter"></span> <?php sideBar::getHunterPercentage();?>% Hunters&nbsp;<img src="images/job/hunter-icon.png"/></li>
+						<li><span class="thief"></span> <?php sideBar::getThiefPercentage();?>% Thieves&nbsp;<img src="images/job/thief-icon.png"/></li>
+					</ul>
+                </ul>
+            </div>
+        </div>                     
+    </div> <!--End Job-->

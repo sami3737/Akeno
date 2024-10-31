@@ -1,0 +1,80 @@
+<div class="nav-container">
+	<div class="via-1511456374325" via="via-1511456374325" vio="Main">
+		<script type="text/javascript"> 
+		$(window).scroll(function(){
+			 var top=$(window).scrollTop()
+			 /*put your color in background color */
+			 if(top>1){ $('#menu1').css('background-color','rgba(38, 38, 38, 0.7)');}
+			 else{ $('#menu1').css('background-color','Transparent'); }
+
+			  }) 
+		</script>
+		<nav style="position: fixed;" id="menu1" class="bar bar-1 hidden-xs bar--absolute bar--transparent">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1 col-sm-2 hidden-xs">
+						<div class="bar__module">
+							<a href="."> <h3 class="main-title" style="color: white;text-decoration:none; margin-bottom: 0px; margin-top: 0px;">Rust4Fun</h3> </a>
+						</div>
+					</div>
+					<div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+						<div class="bar__module">
+							<ul class="menu-horizontal text-left">
+					<?php if(isset($_SESSION['username'])) { ?>
+
+					<li><a href="http://www.blacklagoongaming.com" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>Home</a></li>
+					<li class="dropdown">
+						<a href="#" style="text-align: center; margin: 15 0 0 0;" class="dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION['username']?> <i class="fa fa-angle-down"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="?page=panel">Accountpanel</a></li>
+							<li><a href="?page=panel">Donate</a></li>
+							<li><a href="api/auth/login/auth.php?action=logout">Logout</a></li>
+
+						</ul>
+					</li>
+					<li><a href="?page=ranking" style="text-align: center; margin: 15 0 0 0;">Ranking</a></li>
+					<li><a href="./#about" style="text-align: center; margin: 15 0 0 0;">Downloads</a></li>
+					<li><a href="./#info" style="text-align: center; margin: 15 0 0 0;">Server INFO</a></li>
+					<li><a href="./#staff" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>STAFF</a></li>
+					<li><a href="./#about" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>About us</a></li>
+					<li><a href="./#news" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>News</a></li>
+					<li><a href="?page=Support" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>Support</a></li>
+					<?php } ELSE { ?>
+						
+					<li><a href="http://www.blacklagoongaming.com" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>Home</a></li>
+					<li><a onclick="showLogin();" href="#" style="text-align: center; margin: 15 0 0 0;" class="login-btn"><i class=""></i> Login</a></li>
+					<li><a href="?page=ranking" style="text-align: center; margin: 15 0 0 0;">Ranking</a></li>
+					<li><a href="./#about" style="text-align: center; margin: 15 0 0 0;">Downloads</a></li>
+					<li><a href="./#info" style="text-align: center; margin: 15 0 0 0;">Server INFO</a></li>
+					<li><a href="./#staff" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>STAFF</a></li>
+					<li><a href="./#about" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>About us</a></li>
+					<li><a href="./#news" style="text-align: center; margin: 15 0 0 0;"><i class=""></i>News</a></li>
+
+					<?php } ?>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="main-container">
+	<div id="modalStatus" class="modal fade" tabindex="-5" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3 class="modal-title" id="myModalLabel">Status</h3>
+				</div>
+				<div class="modal-body text"><!-- Loaded Data --></div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+            <section class="imagebg height-100 text-center" data-gradient-bg="#5f2c82,#49a09d,#F3A183,#5f2c82">
+                    <div class="row">
+						<?php require('./sliders/index.html'); ?>
+					</div>
+            </section>

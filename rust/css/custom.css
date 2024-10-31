@@ -1,0 +1,36 @@
+@font-face {
+    font-family: GAB;
+    src: url(../fonts/Gloss_And_Bloom.ttf);
+}
+
+.main-title {
+	font-family: GAB;
+}
+
+#title {
+	font-size: 10em;
+}
+
+#menu1 {
+    -webkit-transition-duration: 0.51s; /* Safari */
+    transition-duration: 0.51s;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px!important;
+}
+
+.formratic {
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+.main-title a:hover, a:visited, a:link, a:active {
+    text-decoration: none!important;
+}
+
+.main-title h3 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}

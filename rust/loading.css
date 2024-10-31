@@ -1,0 +1,5 @@
+#ovd-loading{background-image:url(img/ovd_sprite.png);position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:.8;cursor:pointer;z-index:10001}
+#ovd-loading div{width:44px;height:44px;background:url(img/loading.gif) center center no-repeat}
+.ovd-overlay{position:absolute;top:0;left:0;overflow:hidden;z-index:10001;background:url(img/overlay.png)}
+.ovd-overlay-fixed{position:fixed;bottom:0;right:0}
+.ovd-overlay{overflow:auto;overflow-y:scroll}

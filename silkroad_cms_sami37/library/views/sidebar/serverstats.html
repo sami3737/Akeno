@@ -1,0 +1,43 @@
+	<script src="https://use.fontawesome.com/1016223893.js"></script>
+	<div class="widget categories">
+		<a href="https://drive.google.com/drive/folders/0B6E0EfBlP6UqYU1hTVZVTElLVTQ" target="_self"><img style="text-align: center; margin: -50 0 0 -23;" src="./images/V2/Download.png" class="img-responsive"></a>
+		<div class="divider"></div><br>
+		<img src="./images/V2/serverinfo.png" class="img-responsive">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="blog_archieve">
+				
+					<div class="clearfix margin-bottom-15"></div>
+					<?php
+					global $Socket;
+					global $config;
+					if($Socket->checkState($config->ServerIP,$config->LoginPort))
+					{
+						echo '<li style="font-weight:bold;">Server Status: <font color="green">Online</font></li>';
+					}
+					else
+						echo '<li style="font-weight:bold;">Server Status: <font color="red">Offline</font></li>';
+					?>					
+					<li> Player Online					
+					<?php
+						$userCount = SqlManager::ReadSingle("Select Top 1 nUserCount From _ShardCurrentUser Where nShardID = 64 ORDER BY nID desc");
+	
+						echo ''.$userCount.' / 1000';
+					?></li>
+					
+					<div class="clearfix margin-bottom-15"></div>
+					<li><i class="fa fa-server"></i> Server: Pacific Lagoon</li>
+					<li><i class="fa fa-users"></i> Cap <?=$config->ServerCap?></li>
+					<li><i class="fa fa-venus-mars"></i> Race : <?=$config->ServerRace?></li>
+					<li><i class="fa fa-arrow-circle-o-up"></i> Exp/Sp <?=$config->ServerExp?></li>
+					<li><i class="fa fa-arrow-circle-o-up"></i> Exp/Sp Party <?=$config->ServerExpParty?></li>
+					<li><i class="fa fa-exchange"></i> Gold Drop <?=$config->ServerGoldDrop?></li>
+					<li><i class="fa fa-exchange"></i> Item Drop <?=$config->ServerItemDrop?></li>
+					<li><i class="fa fa-exchange"></i> Tradegoods <?=$config->ServerTradeGoods?></li>
+					<li><i class="fa fa-plus-circle"></i> Max Plus <?=$config->ServerMaxPlus?></li>
+					<li><i class="fa fa-desktop"></i> PC Limit <?=$config->ServerPclimit?></li>
+                </ul>
+            </div>
+        </div>                     
+    </div>
+   <br>

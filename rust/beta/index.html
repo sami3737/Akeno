@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+</head>
+<body>
+    <div class="form-1">
+      <h3 class="form-title">Request a custom plugin</h3>
+      <p class="form-info">For custom plugin requests, leave URL empty.</p>
+      <form name="contactform" method="post" action="contact-form-handler.php">
+        <input type="text" id="fname" name="email" placeholder="Email">
+
+        <input type="text" id="lname" name="pluginurl" placeholder="Plugin URL (oxidemod.org or chaoscode.io)">
+
+        <label for="subject"></label>
+        <textarea id="subject" name="subject" placeholder="Why should we add this plugin to our server?" style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    <script language="JavaScript">
+        var frmvalidator  = new Validator("contactform");
+        frmvalidator.addValidation("pluginurl","req","Please provide a PluginURL");
+        frmvalidator.addValidation("subject","req","Please provide a reason");
+        frmvalidator.addValidation("email","req","Please provide your email");
+        frmvalidator.addValidation("email","email",
+          "Please enter a valid email address");
+    </script>
+
+</body>
+</html>

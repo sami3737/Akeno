@@ -1,0 +1,61 @@
+<?php 
+global $config
+?>
+<footer id="footer" class="midnight-blue">
+	<center>  
+	<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2541593655735054"
+     data-ad-slot="1450125429"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<br><br>
+		<ul class="faico">
+			<li><a class="faicon-facebook" href="<?=$config->FaceBook?>" target="https://www.facebook.com/blacklagoongaming/"><i class="fa fa-facebook"></i> </a> </li>
+			<li><a class="faicon-youtube" href="<?=$config->Youtube?>" target="https://www.youtube.com/channel/UCGI0woIpNXtggzP3HHnpRDg"><i class="fa fa-youtube"> </i> </a> </li>
+		</ul>  
+		
+		<nav>
+		<ul class="nospace">
+			<li><a href="http://www.blacklagoongaming.com/" target="_blanck">Main Page</a> </li>
+			<li><a href="http://silkroad.blacklagoongaming.com" target="_blanck">Silkroad Home</a> </li>
+			<li><a href="http://rust.blacklagoongaming.com" target="_blanck">Rust Home</a> </li>
+		</ul>
+		</nav>
+        <div class="col-sm-12">
+            <div class="gameplay">
+                <p style="font-size:13px;">All Images and content on this site belong to their respective owners <br>Copy Right 2017 - 2018 by <a target="_blanck" href="http://steamcommunity.com/id/AkenoChan121/"</a>Akeno Himejima</p>
+            </div>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Foother -->
+        </div>
+	</center>  
+</footer><!--/#footer-->
+
+	<script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/main.js"></script>
+	<script type="text/javascript" src="/test.js"></script>
+	<script type="text/javascript" src="/test2.js"></script>
+
+	<link rel="stylesheet" href="/minified/themes/A.modern.min.css.pagespeed.cf.69sWXn5LoU.css" type="text/css" media="all"/>
+	<script type="text/javascript" src="/minified/jquery.sceditor.bbcode.min.js.pagespeed.jm.dKal0RuDC3.js"></script>
+	
+	<script type="text/javascript">
+
+var iTimeStamp=<?=Timer::getServerTime()?>-Math.round(+new Date()/1000);
+
+tTimer(iTimeStamp,"<?=Timer::getNextFortressWar()?>","castleTimer");
+tTimer(iTimeStamp,"<?=Timer::getNextCTFWar()?>","ctfTimer");
+
+window.setInterval('tTimer(iTimeStamp,"<?=Timer::getNextFortressWar()?>","castleTimer")',250);
+window.setInterval('tTimer(iTimeStamp,"<?=Timer::getNextCTFWar()?>","ctfTimer")',250);
+window.setInterval('ServerTimer()',999);
+
+</script>
+
+</body>
+</html>

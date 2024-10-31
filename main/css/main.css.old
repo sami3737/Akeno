@@ -1,0 +1,59 @@
+body {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-title {
+  font-family: GAB;
+  text-align: center;
+  font-size: 6em;
+  color: #fff;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.top-title {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.nd-div, .st-div {
+  width: 18%;
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  border: 0px solid #ddd;
+  font-family: GAB;
+}
+
+.nd-div:hover, .st-div:hover {
+  background-color: rgba(265, 265, 265, 0.1);
+  -webkit-transition: background-color 0.1s ease-in;
+  -moz-transition: background-color 0.1s ease-in;
+  -o-transition: background-color 0.1s ease-in;
+  -ms-transition: background-color 0.1s ease-in;
+  transition: background-color 0.1s ease-in;
+}
+
+.st-div {
+  float: right;
+  margin-right: 30%;
+}
+
+.nd-div {
+  float: left;
+  margin-left: 30%;
+}
+
+@font-face {
+  font-family: GAB;
+  src: url(../font/Gloss_And_Bloom.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500');

@@ -1,0 +1,442 @@
+[25-Jun-2017 13:56:49 Africa/Cairo] PHP Warning:  require_once(__Inc/initialize.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 7
+[25-Jun-2017 13:56:49 Africa/Cairo] PHP Fatal error:  require_once(): Failed opening required '__Inc/initialize.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 7
+[25-Jun-2017 13:56:50 Africa/Cairo] PHP Warning:  require_once(__Inc/initialize.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 7
+[25-Jun-2017 13:56:50 Africa/Cairo] PHP Fatal error:  require_once(): Failed opening required '__Inc/initialize.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 7
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 12
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: uid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 13
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: oid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 14
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: new in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 15
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: total in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 16
+[25-Jun-2017 13:59:08 Africa/Cairo] PHP Notice:  Undefined index: sig in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 17
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 12
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: uid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 13
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: oid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 14
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: new in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 15
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: total in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 16
+[25-Jun-2017 13:59:09 Africa/Cairo] PHP Notice:  Undefined index: sig in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 17
+[25-Jun-2017 14:01:06 Africa/Cairo] PHP Fatal error:  Uncaught Error: Undefined class constant 'sr_secretkey' in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:01:06 Africa/Cairo] PHP Fatal error:  Uncaught Error: Undefined class constant 'sr_secretkey' in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:01:51 Africa/Cairo] PHP Fatal error:  Uncaught Error: Access to undeclared static property: Config::$sr_secretkey in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 12
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: uid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 13
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: oid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 14
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: new in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 15
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: total in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 16
+[25-Jun-2017 14:03:07 Africa/Cairo] PHP Notice:  Undefined index: sig in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 17
+[25-Jun-2017 14:03:31 Africa/Cairo] PHP Fatal error:  Uncaught Error: Access to undeclared static property: Config::$sr_secretkey in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:10:00 Africa/Cairo] PHP Notice:  Undefined variable: sr_secretkey in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:10:00 Africa/Cairo] PHP Fatal error:  Uncaught Error: Cannot access empty property in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:10:01 Africa/Cairo] PHP Notice:  Undefined variable: sr_secretkey in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:10:01 Africa/Cairo] PHP Fatal error:  Uncaught Error: Cannot access empty property in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:9
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 9
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 12
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: uid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 13
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: oid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 14
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: new in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 15
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: total in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 16
+[25-Jun-2017 14:10:11 Africa/Cairo] PHP Notice:  Undefined index: sig in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 17
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 12
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: uid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 13
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: oid in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 14
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: new in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 15
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: total in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 16
+[25-Jun-2017 14:28:34 Africa/Cairo] PHP Notice:  Undefined index: sig in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 17
+[25-Jun-2017 14:43:13 Africa/Cairo] User kingdollar purchased 100 coins using 7212 (txn: 999999999)
+
+[25-Jun-2017 14:43:13 Africa/Cairo] PHP Notice:  Undefined variable: DB in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 14:43:13 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function Execute() on null in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:38
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 15:50:17 Africa/Cairo] User kingdollar purchased 100 coins using 7212 (txn: 999999999)
+
+[25-Jun-2017 15:50:17 Africa/Cairo] PHP Notice:  Undefined variable: DB in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 15:50:17 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function Execute() on null in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:38
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 15:50:18 Africa/Cairo] User kingdollar purchased 100 coins using 7212 (txn: 999999999)
+
+[25-Jun-2017 15:50:18 Africa/Cairo] PHP Notice:  Undefined variable: DB in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 15:50:18 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function Execute() on null in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php:38
+Stack trace:
+#0 C:\Apache24\htdocs\silkroad_cms\library\controller\user\login\panel.php(35): require_once()
+#1 C:\Apache24\htdocs\silkroad_cms\library\core\Application.php(64): Panel->superrewardipn()
+#2 C:\Apache24\htdocs\silkroad_cms\public\index.php(13): Application->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\silkroad_cms\library\ipn\superreward.php on line 38
+[25-Jun-2017 15:50:48 Africa/Cairo] User kingdollar purchased 100 coins using 7212 (txn: 999999999)
+
+[10-Oct-2017 20:13:19 Africa/Cairo] User DOLLAR purchased 3000 coins using 7212 (txn: 999999999)
+
+[10-Oct-2017 20:23:07 Africa/Cairo] User gamebird88 purchased 821 coins using 5999 (txn: 237648612)
+
+[10-Oct-2017 20:24:08 Africa/Cairo] User mariusking95 purchased 1400 coins using 5999 (txn: 237648614)
+
+[10-Oct-2017 20:28:12 Africa/Cairo] User mariusking95 purchased 2800 coins using 5999 (txn: 237648627)
+
+[10-Oct-2017 20:29:07 Africa/Cairo] User Puzikovs purchased 831 coins using 5999 (txn: 237648633)
+
+[10-Oct-2017 20:33:07 Africa/Cairo] User Rednight purchased 2100 coins using 5999 (txn: 237648645)
+
+[10-Oct-2017 20:40:43 Africa/Cairo] User dollar purchased 60 coins using 7212 (txn: 999999999)
+
+[10-Oct-2017 20:45:12 Africa/Cairo] User fr1dol1n1337 purchased 1232 coins using 5999 (txn: 237648673)
+
+[10-Oct-2017 20:51:07 Africa/Cairo] User gamebird88 purchased 493 coins using 5999 (txn: 237648686)
+
+[10-Oct-2017 20:57:08 Africa/Cairo] User Stalker1 purchased 822 coins using 5999 (txn: 237648703)
+
+[10-Oct-2017 21:08:11 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237648745)
+
+[10-Oct-2017 21:09:07 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237648756)
+
+[10-Oct-2017 21:09:07 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237648754)
+
+[10-Oct-2017 21:22:17 Africa/Cairo] User alain991 purchased 3500 coins using 5999 (txn: 237648794)
+
+[10-Oct-2017 21:36:08 Africa/Cairo] User xmind99tm purchased 423 coins using 5999 (txn: 237648838)
+
+[10-Oct-2017 21:44:08 Africa/Cairo] User xmind99tm purchased 85 coins using 5999 (txn: 237648863)
+
+[10-Oct-2017 21:58:07 Africa/Cairo] User kicks513 purchased 700 coins using 5999 (txn: 237648906)
+
+[10-Oct-2017 22:21:12 Africa/Cairo] User tibetnuker18 purchased 1233 coins using 5999 (txn: 237648975)
+
+[10-Oct-2017 23:10:12 Africa/Cairo] User brinjaul181 purchased 2100 coins using 5999 (txn: 237649105)
+
+[10-Oct-2017 23:37:08 Africa/Cairo] User xdlolhaha purchased 822 coins using 5999 (txn: 237649175)
+
+[10-Oct-2017 23:42:07 Africa/Cairo] User Gehenna purchased 1233 coins using 5999 (txn: 237649191)
+
+[11-Oct-2017 00:18:08 Africa/Cairo] User ardje4 purchased 1233 coins using 5999 (txn: 237649290)
+
+[11-Oct-2017 00:40:12 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237649342)
+
+[11-Oct-2017 00:41:11 Africa/Cairo] User kevnicgamer purchased 700 coins using 5999 (txn: 237649350)
+
+[11-Oct-2017 00:50:12 Africa/Cairo] User pontabest purchased 700 coins using 5999 (txn: 237649370)
+
+[11-Oct-2017 00:55:12 Africa/Cairo] User donor purchased 4 coins using 298366 (txn: 237649389)
+
+[11-Oct-2017 00:55:12 Africa/Cairo] User mamol1989 purchased 916 coins using 5999 (txn: 237649388)
+
+[11-Oct-2017 01:40:07 Africa/Cairo] User tatass1 purchased 836 coins using 298571 (txn: 237649483)
+
+[11-Oct-2017 01:52:07 Africa/Cairo] User tatass1 purchased 510 coins using 276504 (txn: 237649512)
+
+[11-Oct-2017 02:09:06 Africa/Cairo] User tatass2 purchased 836 coins using 298571 (txn: 237649558)
+
+[11-Oct-2017 02:15:12 Africa/Cairo] User tatass2 purchased 510 coins using 276504 (txn: 237649579)
+
+[11-Oct-2017 04:57:07 Africa/Cairo] User belovdebil purchased 821 coins using 5999 (txn: 237649872)
+
+[11-Oct-2017 10:15:11 Africa/Cairo] User donor purchased 8 coins using 297825 (txn: 237650481)
+
+[11-Oct-2017 11:39:08 Africa/Cairo] User MalekFattah purchased 10 coins using 298313 (txn: 237650624)
+
+[11-Oct-2017 13:43:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650881)
+
+[11-Oct-2017 13:44:06 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650888)
+
+[11-Oct-2017 13:44:11 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650889)
+
+[11-Oct-2017 13:45:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650892)
+
+[11-Oct-2017 13:45:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650891)
+
+[11-Oct-2017 13:45:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650895)
+
+[11-Oct-2017 13:45:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650893)
+
+[11-Oct-2017 13:46:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650898)
+
+[11-Oct-2017 13:46:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650896)
+
+[11-Oct-2017 13:47:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237650901)
+
+[11-Oct-2017 14:30:08 Africa/Cairo] User keinplan09 purchased 105 coins using 5999 (txn: 237651016)
+
+[11-Oct-2017 15:47:12 Africa/Cairo] User zorourforce purchased 300 coins using 5999 (txn: 237651211)
+
+[11-Oct-2017 16:11:12 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237651281)
+
+[11-Oct-2017 16:12:07 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237651291)
+
+[11-Oct-2017 17:13:09 Africa/Cairo] User tatass3 purchased 510 coins using 276504 (txn: 237651555)
+
+[11-Oct-2017 17:38:07 Africa/Cairo] User tatass3 purchased 816 coins using 298460 (txn: 237651621)
+
+[11-Oct-2017 17:40:12 Africa/Cairo] User JOSHKUS purchased 1232 coins using 5999 (txn: 237651624)
+
+[11-Oct-2017 17:42:12 Africa/Cairo] User tatass3 purchased 836 coins using 298571 (txn: 237651637)
+
+[11-Oct-2017 17:54:09 Africa/Cairo] User bong123 purchased 1233 coins using 5999 (txn: 237651658)
+
+[11-Oct-2017 20:34:07 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237652169)
+
+[11-Oct-2017 20:57:28 Africa/Cairo] User zorourforce purchased 300 coins using 5999 (txn: 237652246)
+
+[11-Oct-2017 20:58:02 Africa/Cairo] User stellebelle purchased 3500 coins using 5999 (txn: 237652251)
+
+[11-Oct-2017 20:58:27 Africa/Cairo] User stellebelle purchased 12000 coins using 5999 (txn: 237652256)
+
+[11-Oct-2017 20:59:02 Africa/Cairo] User rednight1 purchased 2800 coins using 5999 (txn: 237652257)
+
+[11-Oct-2017 20:59:22 Africa/Cairo] User rednight1 purchased 2800 coins using 5999 (txn: 237652262)
+
+[11-Oct-2017 21:13:13 Africa/Cairo] User Rednight purchased 1400 coins using 5999 (txn: 237652331)
+
+[11-Oct-2017 21:14:02 Africa/Cairo] User Rednight purchased 700 coins using 5999 (txn: 237652332)
+
+[11-Oct-2017 21:14:07 Africa/Cairo] User Rednight purchased 700 coins using 5999 (txn: 237652333)
+
+[11-Oct-2017 21:55:12 Africa/Cairo] User coldheat purchased 700 coins using 5999 (txn: 237652507)
+
+[11-Oct-2017 22:06:12 Africa/Cairo] User Gehenna purchased 353 coins using 5999 (txn: 237652545)
+
+[11-Oct-2017 22:17:11 Africa/Cairo] User veassen purchased 700 coins using 5999 (txn: 237652577)
+
+[12-Oct-2017 00:53:12 Africa/Cairo] User ansimani1991 purchased 700 coins using 5999 (txn: 237653004)
+
+[12-Oct-2017 01:02:07 Africa/Cairo] User hall17 purchased 10 coins using 298492 (txn: 237653025)
+
+[12-Oct-2017 01:16:12 Africa/Cairo] User schnegg purchased 1239 coins using 5999 (txn: 237653055)
+
+[12-Oct-2017 01:48:08 Africa/Cairo] User gamebird77 purchased 826 coins using 5999 (txn: 237653120)
+
+[12-Oct-2017 04:20:07 Africa/Cairo] User tatass4 purchased 510 coins using 276504 (txn: 237653345)
+
+[12-Oct-2017 04:23:07 Africa/Cairo] User tatass4 purchased 836 coins using 298571 (txn: 237653352)
+
+[12-Oct-2017 04:36:08 Africa/Cairo] User tatass5 purchased 510 coins using 276504 (txn: 237653375)
+
+[12-Oct-2017 04:38:07 Africa/Cairo] User tatass5 purchased 836 coins using 298571 (txn: 237653378)
+
+[12-Oct-2017 04:45:07 Africa/Cairo] User tatass6 purchased 510 coins using 276504 (txn: 237653394)
+
+[12-Oct-2017 08:53:02 Africa/Cairo] User coldheat purchased 700 coins using 5999 (txn: 237653774)
+
+[12-Oct-2017 08:53:06 Africa/Cairo] User veassen2 purchased 700 coins using 5999 (txn: 237653772)
+
+[12-Oct-2017 08:53:06 Africa/Cairo] User veassen1 purchased 700 coins using 5999 (txn: 237653773)
+
+[12-Oct-2017 08:54:02 Africa/Cairo] User stellebelle purchased 12000 coins using 5999 (txn: 237653778)
+
+[12-Oct-2017 08:54:07 Africa/Cairo] User coldheat purchased 12000 coins using 5999 (txn: 237653779)
+
+[12-Oct-2017 08:54:27 Africa/Cairo] User coldheat purchased 2100 coins using 5999 (txn: 237653780)
+
+[12-Oct-2017 13:34:07 Africa/Cairo] User tatass6 purchased 816 coins using 298460 (txn: 237654159)
+
+[12-Oct-2017 13:39:07 Africa/Cairo] User tatass6 purchased 836 coins using 298571 (txn: 237654170)
+
+[12-Oct-2017 13:39:08 Africa/Cairo] User b0ykoe purchased 700 coins using 5999 (txn: 237654171)
+
+[12-Oct-2017 13:55:12 Africa/Cairo] User tatass7 purchased 510 coins using 276504 (txn: 237654197)
+
+[12-Oct-2017 14:03:07 Africa/Cairo] User tatass7 purchased 816 coins using 298460 (txn: 237654216)
+
+[12-Oct-2017 14:07:07 Africa/Cairo] User tatass7 purchased 836 coins using 298571 (txn: 237654222)
+
+[12-Oct-2017 16:37:07 Africa/Cairo] User mada92 purchased 700 coins using 5999 (txn: 237654620)
+
+[12-Oct-2017 16:51:07 Africa/Cairo] User ricostaaar purchased 2800 coins using 5999 (txn: 237654667)
+
+[12-Oct-2017 16:53:07 Africa/Cairo] User pogostar purchased 2100 coins using 5999 (txn: 237654675)
+
+[12-Oct-2017 17:25:27 Africa/Cairo] User zorourforce purchased 700 coins using 5999 (txn: 237654816)
+
+[12-Oct-2017 17:26:02 Africa/Cairo] User zorourforce purchased 700 coins using 5999 (txn: 237654817)
+
+[12-Oct-2017 17:26:07 Africa/Cairo] User veassen7 purchased 1400 coins using 5999 (txn: 237654818)
+
+[12-Oct-2017 17:36:12 Africa/Cairo] User fieldmarshal purchased 153 coins using 5999 (txn: 237654864)
+
+[12-Oct-2017 18:07:07 Africa/Cairo] User fr1dol1n1337 purchased 1400 coins using 5999 (txn: 237654956)
+
+[12-Oct-2017 19:38:27 Africa/Cairo] User kevnicgamer purchased 700 coins using 5999 (txn: 237655245)
+
+[12-Oct-2017 21:06:00 Africa/Cairo] User kevnicgamer purchased 700 coins using 5999 (txn: 237655858)
+
+[12-Oct-2017 23:28:55 Africa/Cairo] User kevnicgamer purchased 57 coins using 251285 (txn: 237656338)
+
+[13-Oct-2017 01:15:55 Africa/Cairo] User atxamthoj13 purchased 700 coins using 5999 (txn: 237656555)
+
+[13-Oct-2017 06:33:07 Africa/Cairo] User bong123 purchased 1246 coins using 5999 (txn: 237656939)
+
+[13-Oct-2017 08:24:07 Africa/Cairo] User atxamthoj13 purchased 700 coins using 5999 (txn: 237657120)
+
+[13-Oct-2017 10:02:12 Africa/Cairo] User mariusking95 purchased 700 coins using 5999 (txn: 237657300)
+
+[13-Oct-2017 12:28:08 Africa/Cairo] User jimbeam88 purchased 700 coins using 5999 (txn: 237657668)
+
+[13-Oct-2017 12:33:07 Africa/Cairo] User fr1dol1n1337 purchased 1400 coins using 5999 (txn: 237657684)
+
+[13-Oct-2017 12:38:07 Africa/Cairo] User nukerpluto purchased 154 coins using 5999 (txn: 237657708)
+
+[13-Oct-2017 12:39:12 Africa/Cairo] User nukerpluto purchased 154 coins using 5999 (txn: 237657719)
+
+[13-Oct-2017 12:40:06 Africa/Cairo] User nukerpluto purchased 154 coins using 5999 (txn: 237657724)
+
+[13-Oct-2017 15:12:17 Africa/Cairo] User kevnicgamer purchased 2100 coins using 5999 (txn: 237658273)
+
+[13-Oct-2017 15:17:07 Africa/Cairo] User b0ykoe purchased 300 coins using 5999 (txn: 237658297)
+
+[13-Oct-2017 15:18:06 Africa/Cairo] User mariusking95 purchased 1400 coins using 5999 (txn: 237658301)
+
+[13-Oct-2017 15:20:12 Africa/Cairo] User JOSHKUS purchased 1245 coins using 5999 (txn: 237658304)
+
+[13-Oct-2017 15:21:06 Africa/Cairo] User celiena1234 purchased 2491 coins using 5999 (txn: 237658310)
+
+[13-Oct-2017 17:39:12 Africa/Cairo] User gamebird88 purchased 498 coins using 5999 (txn: 237658888)
+
+[13-Oct-2017 21:13:07 Africa/Cairo] User mariusking95 purchased 600 coins using 5999 (txn: 237659840)
+
+[13-Oct-2017 21:14:08 Africa/Cairo] User bong123 purchased 1600 coins using 5999 (txn: 237659843)
+
+[13-Oct-2017 23:19:07 Africa/Cairo] User anil10 purchased 710 coins using 5999 (txn: 237660416)
+
+[14-Oct-2017 01:44:17 Africa/Cairo] User jimbeam88 purchased 600 coins using 5999 (txn: 237660902)
+
+[14-Oct-2017 09:53:07 Africa/Cairo] User atxamthoj13 purchased 1600 coins using 5999 (txn: 237661834)
+
+[14-Oct-2017 12:01:07 Africa/Cairo] User kevnicgamer purchased 3300 coins using 5999 (txn: 237662122)
+
+[14-Oct-2017 12:05:07 Africa/Cairo] User kevnicgamer purchased 300 coins using 5999 (txn: 237662130)
+
+[14-Oct-2017 18:51:07 Africa/Cairo] User tibetnuker18 purchased 1065 coins using 5999 (txn: 237663601)
+
+[15-Oct-2017 02:52:08 Africa/Cairo] User schmolska purchased 600 coins using 5999 (txn: 237665530)
+
+[15-Oct-2017 03:56:07 Africa/Cairo] User 3yoghmoob143 purchased 600 coins using 5999 (txn: 237665764)
+
+[15-Oct-2017 13:34:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668630)
+
+[15-Oct-2017 13:34:08 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668638)
+
+[15-Oct-2017 13:34:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668633)
+
+[15-Oct-2017 13:34:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668631)
+
+[15-Oct-2017 13:35:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668645)
+
+[15-Oct-2017 13:35:07 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668641)
+
+[15-Oct-2017 13:35:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668647)
+
+[15-Oct-2017 13:35:12 Africa/Cairo] User damirkralj purchased 85 coins using 5999 (txn: 237668643)
+
+[15-Oct-2017 16:47:06 Africa/Cairo] User sharik3x purchased 600 coins using 5999 (txn: 237669269)
+
+[17-Oct-2017 01:38:07 Africa/Cairo] User brinjaul181 purchased 1600 coins using 5999 (txn: 237675674)
+
+[17-Oct-2017 12:38:07 Africa/Cairo] User sharik3x purchased 600 coins using 5999 (txn: 237677101)
+
+[17-Oct-2017 20:36:09 Africa/Cairo] User gamebird77 purchased 496 coins using 5999 (txn: 237679109)
+
+[17-Oct-2017 20:38:12 Africa/Cairo] User 1337exo purchased 212 coins using 5999 (txn: 237679119)
+
+[17-Oct-2017 20:50:29 Africa/Cairo] User 1337exo purchased 354 coins using 5999 (txn: 237679169)
+
+[17-Oct-2017 21:57:07 Africa/Cairo] User pontabest1 purchased 300 coins using 5999 (txn: 237679446)
+
+[18-Oct-2017 15:22:08 Africa/Cairo] User exee171 purchased 213 coins using 5999 (txn: 237682021)
+
+[18-Oct-2017 15:23:12 Africa/Cairo] User exee171 purchased 36 coins using 5999 (txn: 237682025)
+
+[18-Oct-2017 15:24:12 Africa/Cairo] User exee171 purchased 36 coins using 5999 (txn: 237682030)
+
+[18-Oct-2017 18:16:12 Africa/Cairo] User sobranier purchased 254 coins using 5999 (txn: 237682655)
+
+[18-Oct-2017 21:32:12 Africa/Cairo] User JOSHKUS purchased 708 coins using 5999 (txn: 237683485)
+
+[18-Oct-2017 22:26:07 Africa/Cairo] User tibetnuker18 purchased 212 coins using 5999 (txn: 237683669)
+
+[18-Oct-2017 22:43:12 Africa/Cairo] User cat03198616 purchased 600 coins using 5999 (txn: 237683716)
+
+[18-Oct-2017 22:51:12 Africa/Cairo] User fr1dol1n1337 purchased 600 coins using 5999 (txn: 237683742)
+
+[18-Oct-2017 23:52:12 Africa/Cairo] User kevnicgamer purchased 600 coins using 5999 (txn: 237683941)
+
+[19-Oct-2017 15:08:11 Africa/Cairo] User JOSHKUS purchased 1059 coins using 5999 (txn: 237686287)
+
+[19-Oct-2017 15:39:10 Africa/Cairo] User killminator purchased 105 coins using 5999 (txn: 237686395)
+
+[19-Oct-2017 15:58:12 Africa/Cairo] User sobranier purchased 254 coins using 5999 (txn: 237686491)
+
+[19-Oct-2017 16:36:08 Africa/Cairo] User sobranier purchased 254 coins using 5999 (txn: 237686658)
+
+[19-Oct-2017 19:19:07 Africa/Cairo] User JOSHKUS purchased 1059 coins using 5999 (txn: 237687385)
+
+[19-Oct-2017 22:37:07 Africa/Cairo] User tibetnuker18 purchased 105 coins using 5999 (txn: 237688107)
+
+[20-Oct-2017 03:39:07 Africa/Cairo] User cat03198616 purchased 1600 coins using 5999 (txn: 237688903)
+
+[20-Oct-2017 13:27:07 Africa/Cairo] User anil10 purchased 707 coins using 5999 (txn: 237690313)
+
+[20-Oct-2017 15:20:07 Africa/Cairo] User tibetnuker18 purchased 707 coins using 5999 (txn: 237690794)
+
+[20-Oct-2017 17:31:12 Africa/Cairo] User sobranier purchased 254 coins using 5999 (txn: 237691413)
+
+[20-Oct-2017 21:32:08 Africa/Cairo] User tibetnuker18 purchased 142 coins using 5999 (txn: 237692408)
+
+[21-Oct-2017 15:15:07 Africa/Cairo] User tarakan23 purchased 141 coins using 5999 (txn: 237695883)
+
+[21-Oct-2017 15:16:07 Africa/Cairo] User tarakan23 purchased 141 coins using 5999 (txn: 237695886)
+
+[21-Oct-2017 15:17:06 Africa/Cairo] User tarakan23 purchased 70 coins using 5999 (txn: 237695889)
+
+[23-Oct-2017 00:11:12 Africa/Cairo] User tibetnuker18 purchased 105 coins using 5999 (txn: 237702798)
+
+[23-Oct-2017 18:31:07 Africa/Cairo] User killminator purchased 353 coins using 5999 (txn: 237705986)
+
+[25-Oct-2017 15:44:12 Africa/Cairo] User cdzfee2 purchased 185 coins using 5999 (txn: 237714494)
+
+[25-Oct-2017 16:35:12 Africa/Cairo] User cdzfee2 purchased 186 coins using 5999 (txn: 237714730)
+
+[25-Oct-2017 22:55:12 Africa/Cairo] User cdzfee1 purchased 92 coins using 5999 (txn: 237716592)
+
+[25-Oct-2017 23:24:08 Africa/Cairo] User cdzfee1 purchased 185 coins using 5999 (txn: 237716698)
+
