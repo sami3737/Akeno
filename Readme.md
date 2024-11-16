@@ -35,4 +35,4 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 
 ## License
 
-Ce projet est sous licence ``MIT License`` - voir le fichier [LICENSE](https://github.com/sami3737/Akeno/blob/main/Readme) pour plus d'informations
+Ce projet est sous licence ``MIT License`` - voir le fichier [LICENSE](LICENSE.md) pour plus d'informations
