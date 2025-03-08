@@ -53,7 +53,3 @@ Suivez ces étapes pour installer le projet :
 ## Licence
 
 Ce projet est sous licence **MIT License** - voir le fichier [LICENSE](LICENSE.md) pour plus d'informations.
-
----
-
-Si vous avez des questions ou des suggestions, n’hésitez pas à me contacter ! 😊
